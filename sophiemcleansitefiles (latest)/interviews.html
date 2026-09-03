@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Interviews &amp; Podcast, Access to Awareness™ · Sophie McLean</title>
+<meta name="description" content="Conversations on awareness, ego and consciousness, interviews and talks across podcasts and YouTube, and a new weekly podcast coming soon." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="grain"></div>
+<div class="progress" id="progress"></div>
+<div class="cursor-ring" id="ring"></div>
+<div class="cursor-dot" id="dot"></div>
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark">☾</button>
+
+<header class="site" id="header">
+ <a href="index.html" class="brand" data-hover>Access to Awareness<sup>™</sup><span>Sophie McLean</span></a>
+ <div class="nav-right">
+ <nav class="nav-links">
+ <a href="about.html">About</a>
+ <a href="courses.html">Courses</a>
+ <a href="live.html">Live</a>
+ <a href="interviews.html" class="active">Interviews</a>
+ <a href="books.html">Books</a>
+ <a href="contact.html">Contact</a>
+ </nav>
+ <button class="menu-toggle" id="menuOpen" data-hover>Menu <span class="bars"><i></i><i></i></span></button>
+ </div>
+</header>
+
+<div class="overlay" id="overlay">
+ <button class="close" id="menuClose" data-hover>Close ✕</button>
+ <div class="overlay-grid">
+ <nav>
+ <a href="index.html"><span class="n">01</span>Home</a>
+ <a href="about.html"><span class="n">02</span>About</a>
+ <a href="live.html"><span class="n">03</span>Sophie McLean Live</a>
+ <a href="courses.html"><span class="n">04</span>Courses</a>
+ <a href="worksheets.html"><span class="n">05</span>Worksheets</a>
+ <a href="interviews.html" aria-current="page"><span class="n">06</span>Interviews</a>
+ <a href="books.html"><span class="n">07</span>Books</a>
+ <a href="contact.html"><span class="n">08</span>Contact</a>
+ <a href="donate.html"><span class="n">09</span>Donate</a>
+ </nav>
+ <div class="overlay-side">
+ <p>For the Master Course and Mentoring, we begin with a conversation.</p>
+ <a href="https://calendar.app.google/YEHpZKvGVmbxUsGu7" target="_blank" rel="noopener" class="link-u" data-hover>Book a call →</a><br><br>
+ <a href="mailto:accesstoawareness@gmail.com" class="link-u" data-hover>accesstoawareness@gmail.com</a><br><br>
+ <a href="https://accesstoawareness.substack.com/" target="_blank" rel="noopener" class="link-u" data-hover>Follow on Substack →</a>
+ </div>
+ </div>
+</div>
+
+<main>
+
+<section class="page-hero">
+ <div class="breadcrumb fade-up"><a href="index.html">Home</a> <span>/</span> <span>Interviews</span></div>
+ <p class="eyebrow fade-up">Watch &amp; Listen</p>
+ <h1 class="h-xl" data-split>Conversations on awareness.</h1>
+ <p class="sub fade-up">On the ego, on consciousness, on becoming an exceptional human being.</p>
+</section>
+
+<!-- PODCAST FEATURE -->
+<section class="pad-sm">
+ <div class="wrap split reverse">
+ <div class="split-media wide img-mask fade-up">
+ <img src="images/sophie-in-conversation.jpg" alt="Sophie McLean in conversation" loading="lazy" />
+ </div>
+ <div class="split-copy">
+ <span class="eyebrow fade-up">Coming soon</span>
+ <h2 class="h-md fade-up" style="margin-bottom:1.4rem;">A weekly podcast.</h2>
+ <p class="fade-up">I am building something new, a weekly conversation on my YouTube channel, for anyone quietly walking the path of awareness. Honest, unhurried, and, yes, with a good deal of laughing.</p>
+ <p class="fade-up italic" style="color:var(--olive-dk);font-family:var(--serif);font-size:1.2rem;">Subscribe now, and you will be there for the first one.</p>
+ <div class="fade-up" style="margin-top:1.8rem;display:flex;gap:1rem;flex-wrap:wrap;">
+ <a href="https://www.youtube.com/@sophiemcleanwisdomteacher" target="_blank" rel="noopener" class="btn btn--fill" data-hover>Visit YouTube</a>
+ <a href="#notify" class="btn" data-hover>Notify me</a>
+ </div>
+ </div>
+ </div>
+</section>
+
+<!-- INTERVIEW GALLERY -->
+<section class="pad-sm panel">
+ <div class="wrap">
+ <div class="sec-head"><span class="eyebrow fade-up">Selected conversations</span><h2 class="h-md fade-up">Where I have spoken.</h2></div>
+ <div class="cards cards--square">
+
+ <a href="https://www.youtube.com/watch?v=3PVVxchyY-4" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-enlightened-executive.jpg" alt="How Conscious Leaders Win the Game of Business" loading="lazy" /></div>
+ <div class="card-body"><div class="k">YouTube</div><h3>How Conscious Leaders Win the Game of Business</h3></div>
+ </a>
+
+ <a href="https://www.youtube.com/watch?v=h8WbUUloOuQ" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/sophie-with-flowers.jpg" alt="The Elegance of Simplicity, in conversation" loading="lazy" /></div>
+ <div class="card-body"><div class="k">YouTube</div><h3>The Elegance of Simplicity, in conversation</h3></div>
+ </a>
+
+ <a href="https://www.youtube.com/watch?v=xahzyw8jCfU" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-ralph-graves-jr-show.jpg" alt="Automatic Ego vs. Conscious Ego" loading="lazy" /></div>
+ <div class="card-body"><div class="k">YouTube</div><h3>Automatic Ego vs. Conscious Ego</h3></div>
+ </a>
+
+ <a href="https://podcasts.apple.com/us/podcast/how-to-win-the-game-of-being-human/id1438472688?i=1000578789682" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/sophie-with-flowers.jpg" alt="How to Win the Game of Being Human" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Apple Podcasts</div><h3>How to Win the Game of Being Human</h3></div>
+ </a>
+
+ <a href="https://podcasts.apple.com/gb/podcast/49-becoming-a-conscious-leader-through-mastermind/id1531154440?i=1000548236979" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-entrepreneur-lifestyle.jpg" alt="Becoming a Conscious Leader" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Apple Podcasts</div><h3>Becoming a Conscious Leader</h3></div>
+ </a>
+
+ <a href="https://podcasts.apple.com/us/podcast/sophie-mclean-creating-a-new-culture-for-humankind/id1216249277?i=1000545212161" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/sophie-with-flowers.jpg" alt="Creating a New Culture for Humankind" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Apple Podcasts</div><h3>Creating a New Culture for Humankind</h3></div>
+ </a>
+
+ <a href="https://open.spotify.com/episode/7aRzjDjKGG6WoNA1HLGXxA" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-la-lokahmotive.jpg" alt="Cultivating Ease through Expansion" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Spotify</div><h3>Cultivating Ease through Expansion</h3></div>
+ </a>
+
+ <a href="https://open.spotify.com/episode/0fmxTfLE8FTdRMdntlUEpG" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-confident-woman.jpg" alt="On the nature of being human" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Spotify</div><h3>The Nature of Being Human</h3></div>
+ </a>
+
+ <a href="https://anchor.fm/nathan-leslie/episodes/Ep-25-Can-Wisdom-be-Taught--Guest-Sophia-McLean--Wisdom-Teacher--Balearic-Islands--Spain-e1f48ir" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-leading-with-curiosity.jpg" alt="Can Wisdom Be Taught?" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Podcast</div><h3>Can Wisdom Be Taught?</h3></div>
+ </a>
+
+ <a href="https://anchor.fm/michelle-pfile/episodes/084-Control-Your-Thoughts--Control-Your-Life-with-Sophie-McLean-e18a372" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-michelle-pfile-show.jpg" alt="Control Your Thoughts, Control Your Life" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Podcast</div><h3>Control Your Thoughts, Control Your Life</h3></div>
+ </a>
+
+ <a href="https://womeninconfidence.captivate.fm/episode/sophiemclean" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-women-in-confidence.jpg" alt="Women in Confidence" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Podcast</div><h3>Women in Confidence</h3></div>
+ </a>
+
+ <a href="https://www.blogtalkradio.com/greatiamradio/2023/07/11/awakening-all-sleepwalkers-author-interview-special-guest-sophie-mclean" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/sophie-with-flowers.jpg" alt="Awakening All Sleepwalkers, author interview" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Radio</div><h3>Awakening All Sleepwalkers, Author Interview</h3></div>
+ </a>
+
+ <a href="https://youtu.be/i7J1xxtqf5A" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-everyday-mindfulness.jpg" alt="The Elegance of Simplicity, with Holly Duckworth" loading="lazy" /></div>
+ <div class="card-body"><div class="k">YouTube</div><h3>The Elegance of Simplicity, with Holly Duckworth</h3></div>
+ </a>
+
+ <a href="https://share.transistor.fm/s/304911cb" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-empowering-female-leaders.jpg" alt="Becoming the Originator of Your Authentic Power" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Podcast</div><h3>Becoming the Originator of Your Authentic Power</h3></div>
+ </a>
+
+ <a href="https://www.podchaser.com/podcasts/personal-development-mastery-1003535/episodes/121-sophie-mclean-on-deconstru-90221694" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-personal-development-mastery.jpg" alt="Deconstructing the Ego, A New Culture for Humankind" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Podcast</div><h3>Deconstructing the Ego, A New Culture for Humankind</h3></div>
+ </a>
+
+ <a href="https://www.melanieparish.com/leading-profound-transformation-with-sophie-mclean/" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-experimental-leader.jpg" alt="Leading Profound Transformation" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Podcast</div><h3>Leading Profound Transformation</h3></div>
+ </a>
+
+ <a href="https://jinksperspective.com/podcast/episode-55-self-awareness-and-disentangling-our-ego-with-sophie-mclean/" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-leadership-window-podcast.jpg" alt="Self-Awareness and Disentangling Our Ego" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Podcast</div><h3>Self-Awareness and Disentangling Our Ego</h3></div>
+ </a>
+
+ <a href="https://www.voiceamerica.com/episode/138483/the-gift-of-asking-the-universal-question-who-am-i-and-how-t" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-relaunch-live.jpg" alt="The Gift of Asking the Universal Question: Who Am I?" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Radio</div><h3>The Gift of Asking the Universal Question: Who Am I?</h3></div>
+ </a>
+
+ <a href="https://coachwithinsight.com/podcast/" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-in-the-lead-show.jpg" alt="What It Means to Be Human" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Podcast</div><h3>What It Means to Be Human</h3></div>
+ </a>
+
+ <a href="https://www.seemagiri.com/from-ego-to-essence-with-sophie-mclean/" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-break-free-to-brilliance.jpg" alt="From Ego to Essence" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Podcast</div><h3>From Ego to Essence</h3></div>
+ </a>
+
+ <a href="https://interviewconnections.com/sophie/" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-rock-the-podcast.jpg" alt="Shifting to Homo Spiritus" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Podcast</div><h3>Shifting to Homo Spiritus</h3></div>
+ </a>
+
+ <a href="https://thewomansvoice.com.au/podcast/" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-the-womans-voice.jpg" alt="The Woman's Voice, Episode One" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Podcast</div><h3>The Woman's Voice, Episode One</h3></div>
+ </a>
+
+ <a href="https://www.facebook.com/100002910361286/videos/3159899060783742/?extid=DP6ml2yUHg3yEevg" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-real-deal-with-dug.jpg" alt="The Awareness Process" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Video</div><h3>The Awareness Process</h3></div>
+ </a>
+
+ <a href="https://basecamp-podcast.com/basecamp-for-men-e114-leaning-into-the-mystery/" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-basecamp-for-men-e114.jpg" alt="Leaning into the Mystery" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Podcast</div><h3>Leaning into the Mystery</h3></div>
+ </a>
+
+ <a href="https://basecamp-podcast.com/basecamp-for-men-e45-free-yourself-from-suffering-with-special-guest-sophie-mclean/" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-basecamp-for-men-e45.jpg" alt="Free Yourself from Suffering" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Podcast</div><h3>Free Yourself from Suffering</h3></div>
+ </a>
+
+ <a href="https://fitforjoy.org/guests1/2021/5/15/sophie-mclean" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-quest-for-well-being.jpg" alt="Becoming Aware, Key to Clarity" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Podcast</div><h3>Becoming Aware, Key to Clarity</h3></div>
+ </a>
+
+ <a href="https://www.successcircles.com/rules-for-success-sophie-mclean/" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-success-circles.jpg" alt="Rules for Success" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Podcast</div><h3>Rules for Success</h3></div>
+ </a>
+
+ <a href="https://www.facebook.com/josephvarghese/videos/10157184493080981" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-new-york-power-team.jpg" alt="The Mind, the Ego, and You" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Video</div><h3>The Mind, the Ego, and You</h3></div>
+ </a>
+
+ <a href="https://www.disruptnowprogram.com/blog/the-shift-from-homosapiens-to-homospiritus" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-disrupt-now-podcast.jpg" alt="The Shift from Homosapiens to Homospiritus" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Podcast</div><h3>The Shift from Homosapiens to Homospiritus</h3></div>
+ </a>
+
+ <a href="https://shockyourpotential.com/podcast/practicing-self-awareness-as-a-way-of-being-sophie-mclean/" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-shock-your-potential.jpg" alt="Practicing Self-Awareness as a Way of Being" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Podcast</div><h3>Practicing Self-Awareness as a Way of Being</h3></div>
+ </a>
+
+ <a href="https://andrew-wayfinder-fcd5.mykajabi.com/blog/da15-sophie-mclean" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-destiny-awakening-interviews.jpg" alt="Conscious Leadership" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Podcast</div><h3>Conscious Leadership</h3></div>
+ </a>
+
+ <a href="https://speakersisterhood.com/2021/06/16/podcast-ep-182-experience-growth-without-suffering-with-sophie-mclean/" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-claim-the-stage.jpg" alt="Experience Growth Without Suffering" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Podcast</div><h3>Experience Growth Without Suffering</h3></div>
+ </a>
+
+ <a href="https://www.youtube.com/watch?v=f7nhGKOH84s" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-dealquest-podcast.jpg" alt="From Surviving to Being Alive" loading="lazy" /></div>
+ <div class="card-body"><div class="k">YouTube</div><h3>From Surviving to Being Alive</h3></div>
+ </a>
+
+ <a href="https://ms.player.fm/series/the-trulyfit-podcast/conscious-leadership" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-trulyfit-podcast.jpg" alt="Conscious Leadership, TrulyFit Podcast" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Podcast</div><h3>Conscious Leadership</h3></div>
+ </a>
+
+ <a href="https://angelanoelle.libsyn.com/episode-63-from-homo-sapiens-to-homo-spiritus-with-sophie-mclean" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-reclaim-your-fire.jpg" alt="From Homo Sapiens to Homo Spiritus" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Podcast</div><h3>From Homo Sapiens to Homo Spiritus</h3></div>
+ </a>
+
+ <a href="https://player.fm/series/mindful-living-with-athea-davis/ep-120-connecting-to-our-inner-wisdom-with-sophie-mclean" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-mindful-living-podcast.jpg" alt="Connecting to Our Inner Wisdom" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Podcast</div><h3>Connecting to Our Inner Wisdom</h3></div>
+ </a>
+
+ <a href="https://www.audible.com/pd/34-Sophie-McLean-Tragedy-Resilience-Wisdom-Podcast/B09RTR7S8B" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-built-not-born.jpg" alt="Tragedy, Resilience, Wisdom" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Podcast</div><h3>Tragedy, Resilience, Wisdom</h3></div>
+ </a>
+
+ <a href="https://empowerhumans.com/142-suffering-is-optional-w-sophie-mclean/" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-empower-humans.jpg" alt="Suffering Is Optional" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Podcast</div><h3>Suffering Is Optional</h3></div>
+ </a>
+
+ <a href="https://podcasts.apple.com/us/podcast/lead-your-day-with-merilyn/id1493338330" target="_blank" rel="noopener" class="card fade-up">
+ <div class="card-media"><img src="images/interview-lead-your-day.jpg" alt="Lead Your Day, in conversation" loading="lazy" /></div>
+ <div class="card-body"><div class="k">Podcast</div><h3>Lead Your Day, in conversation</h3></div>
+ </a>
+
+ </div>
+ <p class="fade-up" style="text-align:center;margin-top:3rem;color:var(--ink-soft);font-size:.92rem;">More conversations arrive on the <a href="https://www.youtube.com/@sophiemcleanwisdomteacher" target="_blank" rel="noopener" class="link-u" data-hover>YouTube channel</a> each season.</p>
+ </div>
+</section>
+
+<!-- AS HEARD ON -->
+<section class="pad-sm panel">
+ <div class="wrap">
+ <div class="sec-head center"><span class="eyebrow fade-up">As heard on</span><h2 class="h-md fade-up">Fifty-plus conversations, and counting.</h2></div>
+ </div>
+ <div class="marquee">
+ <div class="marquee-track" id="marquee">
+ <span>The Quiet Warrior</span>
+ <span>Empowering Female Leaders</span>
+ <span>The Motivated Mind</span>
+ <span>Great I Am Radio</span>
+ <span>Basecamp for Men</span>
+ <span>Women in Confidence</span>
+ <span>Leading with Curiosity</span>
+ <span>Straight Up Wellness</span>
+ <span>The Confident Woman Podcast</span>
+ <span>The ReLaunch Live</span>
+ <span>The Michelle Pfile Show</span>
+ <span>Unlikely Leadership Podcast</span>
+ <span>Built Not Born</span>
+ <span>In the Lead Show with Jennifer Tsang</span>
+ <span>The Leadership Window Podcast</span>
+ <span>The Enlightened Executive Podcast</span>
+ <span>The Quiet Warrior Show</span>
+ <span>Mindful Living Podcast</span>
+ <span>The Experimental Leader Podcast</span>
+ <span>Entrepreneur Lifestyle Podcast</span>
+ <span>La Lokahmotive</span>
+ <span>TrulyFit Podcast</span>
+ <span>Extraordinary Women Radio</span>
+ <span>Reclaim Your F.I.R.E.</span>
+ <span>Surviving the Storm</span>
+ <span>Basecamp for Men</span>
+ <span>Claim the Stage</span>
+ <span>Follow Your Path</span>
+ <span>Break Free to Brilliance</span>
+ <span>'Confidence Chats' Panel</span>
+ <span>Shock Your Potential Podcast</span>
+ <span>The Positively You Podcast</span>
+ <span>A Quest for Well-Being</span>
+ <span>Personal Development Mastery</span>
+ <span>The Roadmap</span>
+ <span>Back to You</span>
+ <span>Lead Your Day</span>
+ <span>The Ralph Graves Jr. Show</span>
+ <span>Empower Humans</span>
+ <span>Disrupt Now Podcast</span>
+ <span>The Woman's Voice</span>
+ <span>Rock the Podcast</span>
+ <span>Keep Leading!</span>
+ <span>DealQuest Podcast</span>
+ <span>The Destiny Awakening Interviews</span>
+ <span>New York Power Team</span>
+ <span>The Real Deal On... With Dug</span>
+ <span>Success Circles</span>
+ <span>Basecamp for Men</span>
+ <span>Everyday Mindfulness Show</span>
+ <span>Working on Purpose</span>
+ <span>Fit for Joy</span>
+ </div>
+ </div>
+</section>
+
+<!-- AS HEARD ON -->
+<section class="pad-sm panel">
+ <div class="wrap">
+ <div class="sec-head center"><span class="eyebrow fade-up">As heard on</span><h2 class="h-md fade-up">Fifty-plus conversations, and counting.</h2></div>
+ </div>
+ <div class="marquee">
+ <div class="marquee-track" id="marquee">
+ <span>The Quiet Warrior</span>
+ <span>Empowering Female Leaders</span>
+ <span>The Motivated Mind</span>
+ <span>Great I Am Radio</span>
+ <span>Basecamp for Men</span>
+ <span>Women in Confidence</span>
+ <span>Leading with Curiosity</span>
+ <span>Straight Up Wellness</span>
+ <span>The Confident Woman Podcast</span>
+ <span>The ReLaunch Live</span>
+ <span>The Michelle Pfile Show</span>
+ <span>Unlikely Leadership Podcast</span>
+ <span>Built Not Born</span>
+ <span>In the Lead Show with Jennifer Tsang</span>
+ <span>The Leadership Window Podcast</span>
+ <span>The Enlightened Executive Podcast</span>
+ <span>The Quiet Warrior Show</span>
+ <span>Mindful Living Podcast</span>
+ <span>The Experimental Leader Podcast</span>
+ <span>Entrepreneur Lifestyle Podcast</span>
+ <span>La Lokahmotive</span>
+ <span>TrulyFit Podcast</span>
+ <span>Extraordinary Women Radio</span>
+ <span>Reclaim Your F.I.R.E.</span>
+ <span>Surviving the Storm</span>
+ <span>Basecamp for Men</span>
+ <span>Claim the Stage</span>
+ <span>Follow Your Path</span>
+ <span>Break Free to Brilliance</span>
+ <span>'Confidence Chats' Panel</span>
+ <span>Shock Your Potential Podcast</span>
+ <span>The Positively You Podcast</span>
+ <span>A Quest for Well-Being</span>
+ <span>Personal Development Mastery</span>
+ <span>The Roadmap</span>
+ <span>Back to You</span>
+ <span>Lead Your Day</span>
+ <span>The Ralph Graves Jr. Show</span>
+ <span>Empower Humans</span>
+ <span>Disrupt Now Podcast</span>
+ <span>The Woman's Voice</span>
+ <span>Rock the Podcast</span>
+ <span>Keep Leading!</span>
+ <span>DealQuest Podcast</span>
+ <span>The Destiny Awakening Interviews</span>
+ <span>New York Power Team</span>
+ <span>The Real Deal On... With Dug</span>
+ <span>Success Circles</span>
+ <span>Basecamp for Men</span>
+ <span>Everyday Mindfulness Show</span>
+ <span>Working on Purpose</span>
+ <span>Fit for Joy</span>
+ </div>
+ </div>
+</section>
+
+<!-- NOTIFY -->
+<section class="ink-section pad center" id="notify">
+ <div class="wrap">
+ <p class="eyebrow fade-up">Stay close</p>
+ <h2 class="h-md fade-up" style="max-width:18ch;margin:1.4rem auto 0;">Be there for the first episode.</h2>
+ <p class="fade-up" style="max-width:44ch;margin:1.6rem auto 0;">Leave your email below and I will tell you the day the podcast begins.</p>
+ <div class="fade-up substack-embed">
+ <iframe src="https://accesstoawareness.substack.com/embed" width="480" height="150" style="border:1px solid var(--line); background:#fff; border-radius:6px;" frameborder="0" scrolling="no" title="Subscribe on Substack"></iframe>
+ </div>
+ <p class="sub-line fade-up">Read the writing, too, <a href="https://accesstoawareness.substack.com/" target="_blank" rel="noopener" class="link-u" data-hover>follow on Substack →</a></p>
+ </div>
+</section>
+
+</main>
+
+<footer class="site">
+ <div class="foot-grid">
+ <div class="foot-brand">
+ <a href="index.html" class="brand" data-hover>Access to Awareness<sup>™</sup></a>
+ <p>Awareness is the ultimate power. The teaching of Sophie McLean, from Menorca.</p>
+ </div>
+ <div class="foot-col">
+ <h4>Explore</h4>
+ <a href="about.html" data-hover>About</a>
+ <a href="live.html" data-hover>Sophie McLean Live</a>
+ <a href="courses.html" data-hover>Courses</a>
+ <a href="worksheets.html" data-hover>Worksheets</a>
+ </div>
+ <div class="foot-col">
+ <h4>More</h4>
+ <a href="interviews.html" data-hover>Interviews</a>
+ <a href="books.html" data-hover>Books</a>
+ <a href="contact.html" data-hover>Contact</a>
+ <a href="donate.html" data-hover>Donate</a>
+ </div>
+ <div class="foot-col">
+ <h4>Elsewhere</h4>
+ <a href="https://accesstoawareness.substack.com/" target="_blank" rel="noopener" data-hover>Substack</a>
+ <a href="https://www.youtube.com/@sophiemcleanwisdomteacher" target="_blank" rel="noopener" data-hover>YouTube</a>
+ <a href="interviews.html" data-hover>Watch &amp; Listen</a>
+ </div>
+ </div>
+ <div class="foot-bottom">
+ <span>© <span id="yr"></span> Sophie McLean · Access to Awareness™</span>
+ <span>Menorca, Spain · accesstoawareness@gmail.com</span>
+ </div>
+</footer>
+
+<script src="translations.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
